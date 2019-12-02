@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">PICKNIK</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_profile">Profile</string>
+    <string name="signup">Sign Up</string>
+    <string name="signin">Sign In</string>
+
+    <string name="title_activity_menu">PICKNIK</string>
+    <string name="tab_text_1">For You</string>
+    <string name="tab_text_2">Collection</string>
+    <string name="tab_text_3">Cuisines</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="information">Information</string>
+    <string name="description">Description</string>
+    <string name="preview">Preview</string>
+    <string name="alamat">Address</string>
+    <string name="facilities">Facilities</string>
+    <string name="average_cost">Average Cost</string>
+    <string name="category">Category</string>
+    <string name="log_out">Log out</string>
+
+    <string name="log_in">Log In</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="save">Save</string>
+    <string name="location">Location</string>
+    <string name="phone">Phone</string>
+    <string name="for_one_person_approx">for one Person (approx.)</string>
+
+
+    <!--for array category list-->
+    <array name="category_place">
+        <item name="attraction">Attraction</item>
+        <item name="theme_park">Theme Park</item>
+        <item name="water_park">Water Park</item>
+        <item name="zoo">Zoo</item>
+        <item name="park">Park</item>
+        <item name="romantic">Romantic</item>
+        <item name="indonesian_food">Indonesian Food</item>
+        <item name="indonesian_food">Street Food</item>
+        <item name="fast_food">Fast Food</item>
+        <item name="asian_food">Chinese Food</item>
+        <item name="western_food">Western Food</item>
+        <item name="japan_food">Japanese Food</item>
+        <item name="cafe">Cafe</item>
+        <item name="work_space">Work Space</item>
+        <item name="music_fest">Music Festival</item>
+        <item name="food_fest">Food Festival</item>
+        <item name="sport_fest">Sport Festival</item>
+    </array>
+
+    <array name="category_event">
+        <item name="music_fest">Music Festival</item>
+        <item name="food_fest">Food Festival</item>
+        <item name="sport_fest">Sport Festival</item>
+        <item></item>
+    </array>
+
+    <string name="title_activity_maps">Map</string>
+
+    <string name="mapbox_access_token">sk.eyJ1IjoiYWRlcmVza2l0YSIsImEiOiJjanVxczFpcWozZzl0M3lxajh3Nmx0cnNsIn0.v9ZsB4TC9jY1Ifj0ug_7MQ</string>
+    <string name="error_while_collecting_data">Error while collecting data.</string>
+</resources>

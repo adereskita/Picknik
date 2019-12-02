@@ -1,0 +1,64 @@
+{
+  "project_info": {
+    "project_number": "198633884523",
+    "firebase_url": "https://picknik.firebaseio.com",
+    "project_id": "picknik",
+    "storage_bucket": "picknik.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198633884523:android:f3e824918a6c930e",
+        "android_client_info": {
+          "package_name": "com.example.picknik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198633884523-neo33trfsu5kop4g19kt3skhm0kt6o6u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.picknik",
+            "certificate_hash": "8ff1af91099bcc01d341bb2a59116d7faca70970"
+          }
+        },
+        {
+          "client_id": "198633884523-9l1e08kh89890j8qkd3v4n1m1aamneta.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.picknik",
+            "certificate_hash": "1fc32a293b45d725b447bd9a5751b233b06ff7de"
+          }
+        },
+        {
+          "client_id": "198633884523-vl5vki7rtkn7ks4m6donpu5rp24q2b2q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.picknik",
+            "certificate_hash": "53b6ff16e5284f0ab00b318f3a34a36f4f1ad886"
+          }
+        },
+        {
+          "client_id": "198633884523-1iti12h87vjno05vdlfn1ddigksq3b23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7D8khqEn6f-oEa6qN2Mtp7cLa4FBFogQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198633884523-1iti12h87vjno05vdlfn1ddigksq3b23.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

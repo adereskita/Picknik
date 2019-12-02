@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login.MainActivity_Login"
+    android:background="@drawable/gradient_login">
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:src="@drawable/loginfix"/>-->
+
+    <TextView
+    android:textStyle="bold"
+    android:text="PICKNIK"
+    android:textSize="50sp"
+    android:textAlignment="center"
+    android:textColor="#ffffff"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="100dp"
+    android:layout_alignParentTop="true"
+    android:textAllCaps="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <TextView
+        android:textStyle="italic"
+        android:text="Travel, Food, Go !"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:layout_alignParentTop="true"
+        android:textAllCaps="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="42dp">
+
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btnSingUp"
+                android:text="@string/signup"
+                android:textColor="#ffffff"
+                android:layout_weight="1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/btnstyle"
+                android:clickable="true"/>
+
+            <Button
+                android:textAllCaps="false"
+                android:id="@+id/btnSingIn"
+                android:text="@string/signin"
+                android:textColor="#ffffff"
+                android:layout_weight="1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/btnstyle"
+                android:clickable="true"/>
+
+    </LinearLayout>
+
+        <Button
+            android:textColor="#fff"
+            android:textSize="14dp"
+            android:id="@+id/btn_anonymous"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="I'll Login Later"
+            android:textAllCaps="false"
+            android:background="@android:color/transparent"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="220dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:indeterminate="true"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="#fff"
+        android:visibility="gone"/>
+
+
+
+
+</RelativeLayout>

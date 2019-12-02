@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Details.LocationActivity">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Details.LocationActivity" />
+
+    <RelativeLayout
+        android:id="@+id/relative_search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="@dimen/margin_start"
+        android:layout_marginHorizontal="@dimen/margin_start"
+        android:background="@drawable/search_box_bg"
+        android:elevation="2dp">
+
+        <ImageView
+            android:id="@+id/search_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/baseline_search_black_24dp"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/edt_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/search_ic"
+            android:layout_centerVertical="true"
+            android:textColor="#1A1A1A"
+            android:textSize="15sp"
+            android:hint="Enter place, event name"
+            android:textColorHint="#8A5E5E5E"
+            android:background="@null"
+            android:imeOptions="actionSearch"/>
+
+        <!--<fragment-->
+            <!--android:id="@+id/autocomplete_fragment"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:layout_weight="5"/>-->
+
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/ic_gps"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/relative_search"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_gps"
+        />
+
+
+
+</RelativeLayout>

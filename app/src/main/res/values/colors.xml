@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0097e6</color>
+    <color name="colorPrimaryDark">#005C8B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="bg_color">#F5F6FA</color>
+    <color name="color_title">#93979B</color>
+    <color name="text_color">#000000</color>
+    <color name="navBar">#E6E6E6</color>
+
+    <!--FOR RATING -->
+    <color name="rt_green">#2FE921</color>
+    <color name="rt_yellow">#E0E70D</color>
+    <color name="rt_red">#DD0A0A</color>
+
+</resources>
